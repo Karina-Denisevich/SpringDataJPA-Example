@@ -17,6 +17,9 @@ public class Bank {
     @Column(name = "name")
     private String name;
 
+    public Bank() {
+    }
+
     public Bank(String name) {
         this.name = name;
     }
